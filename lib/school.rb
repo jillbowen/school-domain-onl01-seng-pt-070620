@@ -25,6 +25,7 @@ class School
     @roster.each do |grades, names|
       names.each do |name|
         name.sort
+        binding.pry
       end
     end
       
