@@ -22,8 +22,13 @@ class School
   end
   
   def sort
-    
+    @roster.each do |rosters|
+      rosters.each do |thing|
+        binding.pry
+      
+     end  
     end
+      
   end
   
 end
